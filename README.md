@@ -56,6 +56,33 @@ After:
 | `insertionSort2()`  | Sorts a `double[]` array using the Insertion Sort algorithm   |
 | `printArray2()`     | Generic method to print any array (not used in main)          |
 
+## 🧠 Insertion Sort – Algorithm Analysis
+
+| Property            | Value                                       |
+|---------------------|---------------------------------------------|
+| **Best Case**        | 🕒 `O(n)` – when the array is already sorted |
+| **Average Case**     | 🕒 `O(n²)`                                    |
+| **Worst Case**       | 🕒 `O(n²)` – occurs when the array is in reverse order |
+| **In-Place**         | ✅ Yes – operates directly on the input array |
+| **Stable**           | ✅ Yes – does not reorder equal elements     |
+| **Adaptive**         | ✅ Yes – performance improves with partially sorted input |
+
+### 🔍 Explanation
+
+- **In-place** ✅:  
+  Insertion Sort modifies the array in place without requiring additional memory.
+
+- **Stable** ✅:  
+  Equal elements retain their original relative positions after sorting.
+
+- **Adaptive** ✅:  
+  The algorithm becomes more efficient if the input is already partially sorted, achieving close to linear time in the best case.
+
+### 📌 Summary
+
+Insertion Sort is intuitive and efficient for small or nearly sorted datasets. While it is not suitable for large, random data sets due to its quadratic time complexity, it shines when adaptiveness and stability are important.
+
+
 ## ✍️ Author
 
 - Umejr Dzinovic

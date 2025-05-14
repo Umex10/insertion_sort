@@ -40,6 +40,8 @@ public class App {
         printArrayDouble(numbers2);
     }
 
+    //?Methods to print Array
+
     public static void printArray(int[] array) {
 
         System.out.println(Arrays.toString(array));
@@ -52,9 +54,7 @@ public class App {
 
     }
 
-    public static <T> void printArray2(T[] array) {
-        System.out.println(Arrays.toString(array));
-    }
+    //? Insertion Sort
 
     public static void insertionSort(int[] array) {
 
